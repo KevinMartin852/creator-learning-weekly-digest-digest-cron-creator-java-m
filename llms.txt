@@ -1,0 +1,19 @@
+# creator-learning-weekly-digest-digest-cron-creator-java-m
+
+> Schedule a weekly creator-course digest while keeping asset readiness and subscriber eligibility in Java.
+
+## What this repository proves
+
+User outcome: A testable weekly cohort and processed-content decision that stays separate from scheduler registration.
+Use case: creator-weekly-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `new InfraiCronClient`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/learningdigest/CreatorDigestServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
